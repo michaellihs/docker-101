@@ -7,7 +7,7 @@ Prerequisites
 -------------
 
 * [iTerm2 for Mac](https://iterm2.com/downloads.html)
-* [git](install git on mac)
+* [git](https://git-scm.com/download/mac)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 
