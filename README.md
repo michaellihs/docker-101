@@ -44,3 +44,41 @@ Step 1 - `vagrant up`
 Step 2 - Test your Docker Setup
 -------------------------------
 
+> Following the famous tradition of running `hello world` programs to proof that something is working as expected, we will do a little Docker `hello world` first
+
+* within your Vagrant Box (remember, you got in there via `vagrant ssh` in the directory where this project was cloned to, after running `vagrant up`), run
+
+   ```bash
+   docker run hello-world
+   ```
+   
+  this should show something like
+  
+   ```bash
+   Hello from Docker!
+   This message shows that your installation appears to be working correctly.
+
+   To generate this message, Docker took the following steps:
+    1. The Docker client contacted the Docker daemon.
+    2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+       (amd64)
+    3. The Docker daemon created a new container from that image which runs the
+       executable that produces the output you are currently reading.
+    4. The Docker daemon streamed that output to the Docker client, which sent it
+       to your terminal.
+
+   To try something more ambitious, you can run an Ubuntu container with:
+    $ docker run -it ubuntu bash
+
+   Share images, automate workflows, and more with a free Docker ID:
+    https://hub.docker.com/
+
+   For more examples and ideas, visit:
+    https://docs.docker.com/get-started/
+   ```
+
+* so what did just happen?
+  1. by running the `docker run` command, Docker tried to start a new *container* from an image called *hello-world*
+  1. since this image was not available locally, Docker downloaded it from a website called *Dockerhub* and immediately started it
+  1. everything this image is doing, is showing the above output to kind of proof that your Docker setup works as expected
+
