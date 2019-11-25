@@ -82,3 +82,26 @@ Step 2 - Test your Docker Setup
   1. since this image was not available locally, Docker downloaded it from a website called *Dockerhub* and immediately started it
   1. everything this image is doing, is showing the above output to kind of proof that your Docker setup works as expected
 
+Step 3 - Containers vs. Images
+------------------------------
+
+> Two concepts that people often get confused in the Docker world are *containers* and *images*. You can imagine a container as a running instance of an image. Images are downloaded from the internet and then started on your computer. If you run an image in Docker, we talk about a container.
+
+* check which images are available on your computer via
+
+   ```bash
+   docker image ls
+   ```
+
+* check which containers are running on your computer via
+
+   ```bash
+   docker container ls
+   ```
+
+* check which containers were running and are currently stopped via
+
+   ```bash
+   docker ps -a
+   ```
+   
