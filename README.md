@@ -16,7 +16,7 @@ Step 1 - `vagrant up`
 
 > What is Vagrant? Vagrant provides an easy way to set up virtual machines on your computer. Therefore we do not have to install all the software required for this tutorial on your machine and can leave it in a clean state, once we are done.
 
-* open a terminal window by pressing `COMMAND + SPACE` and start typing `iterm2`
+* open a terminal window by pressing `COMMAND + SPACE` and start typing `iterm2` - once the iterm application shows up, press `RETURN`
 * if you don't have a workspace directory on your computer, create one, via
 
    ```bash
